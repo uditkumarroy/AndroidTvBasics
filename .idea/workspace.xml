@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e032382d-59ea-49e3-8b73-4ff3b9cefb65" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +29,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -31,10 +48,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="amazon-aftt-G070L8229262129C" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.testtv" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -44,7 +70,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -110,13 +136,82 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="149" y="38" key="SettingsEditor" timestamp="1599632102156">
+    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599632742547">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="149" y="38" key="SettingsEditor/0.23.1280.752@0.23.1280.752" timestamp="1599632102156" />
-    <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599632106751">
+    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser/0.23.1280.752@0.23.1280.752" timestamp="1599632742547" />
+    <state x="296" y="261" key="AndroidCreateResourceFileDialog" timestamp="1599647187344">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.752@0.23.1280.752" timestamp="1599632106751" />
+    <state x="296" y="261" key="AndroidCreateResourceFileDialog/0.23.1280.752@0.23.1280.752" timestamp="1599647187344" />
+    <state x="503" y="171" key="AndroidProcessChooserDialog" timestamp="1599636237663">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="503" y="171" key="AndroidProcessChooserDialog/0.23.1280.752@0.23.1280.752" timestamp="1599636237663" />
+    <state width="1238" height="489" key="GridCell.Tab.0.bottom" timestamp="1599642691741">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="489" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599642691741" />
+    <state width="1238" height="489" key="GridCell.Tab.0.center" timestamp="1599642691740">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="489" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1599642691740" />
+    <state width="1238" height="489" key="GridCell.Tab.0.left" timestamp="1599642691739">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="489" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1599642691739" />
+    <state width="1238" height="489" key="GridCell.Tab.0.right" timestamp="1599642691740">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="489" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1599642691740" />
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom" timestamp="1599639777838">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599639777838" />
+    <state width="1238" height="235" key="GridCell.Tab.1.center" timestamp="1599639777837">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
+    <state width="1238" height="235" key="GridCell.Tab.1.left" timestamp="1599639777837">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
+    <state width="1238" height="235" key="GridCell.Tab.1.right" timestamp="1599639777837">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
+    <state x="149" y="38" key="SettingsEditor" timestamp="1599632531378">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="149" y="38" key="SettingsEditor/0.23.1280.752@0.23.1280.752" timestamp="1599632531378" />
+    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599639822660">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.752@0.23.1280.752" timestamp="1599639822660" />
+    <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599632492408">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.752@0.23.1280.752" timestamp="1599632492408" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/onboard/OnBoardFragment.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/splash/SplashFragment.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/main/MainFragment.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,7 +7,7 @@
     tools:context=".ui.splash.SplashActivity">
 
     <fragment
-        android:name="com.example.testtv.ui.splash.SplashFragment"
+        android:name="com.example.testtv.ui.search.SearchFragment"
         android:id="@+id/splash_fragment_lay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
