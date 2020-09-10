@@ -48,6 +48,7 @@ class OnBoardFragment : OnboardingSupportFragment(){
         )
         with(sharedPref?.edit()){
             this?.putBoolean(Constants.APP_SHARED_PREFERENCE, true)
+            this?.commit()
         }
         activity?.finish()
         startActivity(Intent(context,MainActivity::class.java))

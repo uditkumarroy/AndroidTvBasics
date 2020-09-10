@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.search.SearchActivity">
+    tools:context=".ui.onboard.OnboardingActivity">
 
     <fragment
-        android:name="com.example.testtv.ui.search.SearchFragment"
-        android:id="@+id/search_fragment_lay"
+        android:name="com.example.testtv.ui.details.DetailsFragment"
+        android:id="@+id/details_fragment_lay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"

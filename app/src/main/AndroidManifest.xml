@@ -26,6 +26,13 @@
             android:name=".ui.splash.SplashActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.Leanback">
+
+        </activity>
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Leanback.Browse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,14 +42,13 @@
         </activity>
 
         <activity
-            android:name=".ui.main.MainActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/Theme.Leanback.Browse"/>
-
-        <activity
             android:name=".ui.onboard.OnboardingActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.Leanback.Browse"/>
+        <activity
+            android:name=".ui.search.SearchActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Leanback"/>
 
     </application>
 

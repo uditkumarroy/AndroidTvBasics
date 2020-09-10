@@ -7,7 +7,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e032382d-59ea-49e3-8b73-4ff3b9cefb65" name="Default Changelist" comment="" />
@@ -32,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
       </list>
@@ -54,11 +55,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.testtv.ui.main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
@@ -136,62 +142,78 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599632742547">
+    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1599731302323">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser/0.23.1280.752@0.23.1280.752" timestamp="1599632742547" />
-    <state x="296" y="261" key="AndroidCreateResourceFileDialog" timestamp="1599647187344">
+    <state x="427" y="122" key="#com.intellij.ide.util.MemberChooser/0.23.1280.752@0.23.1280.752" timestamp="1599731302323" />
+    <state x="403" y="109" key="#xdebugger.evaluate" timestamp="1599714703581">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="296" y="261" key="AndroidCreateResourceFileDialog/0.23.1280.752@0.23.1280.752" timestamp="1599647187344" />
-    <state x="503" y="171" key="AndroidProcessChooserDialog" timestamp="1599636237663">
+    <state x="403" y="109" key="#xdebugger.evaluate/0.23.1280.752@0.23.1280.752" timestamp="1599714703581" />
+    <state x="296" y="243" key="AndroidCreateResourceFileDialog" timestamp="1599724477143">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="503" y="171" key="AndroidProcessChooserDialog/0.23.1280.752@0.23.1280.752" timestamp="1599636237663" />
-    <state width="1238" height="489" key="GridCell.Tab.0.bottom" timestamp="1599642691741">
+    <state x="296" y="243" key="AndroidCreateResourceFileDialog/0.23.1280.752@0.23.1280.752" timestamp="1599724477143" />
+    <state x="460" y="447" key="AndroidCreateXmlResourceDialog" timestamp="1599666991226">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="489" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599642691741" />
-    <state width="1238" height="489" key="GridCell.Tab.0.center" timestamp="1599642691740">
+    <state x="460" y="447" key="AndroidCreateXmlResourceDialog/0.23.1280.752@0.23.1280.752" timestamp="1599666991226" />
+    <state x="503" y="171" key="AndroidProcessChooserDialog" timestamp="1599676418401">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="489" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1599642691740" />
-    <state width="1238" height="489" key="GridCell.Tab.0.left" timestamp="1599642691739">
+    <state x="503" y="171" key="AndroidProcessChooserDialog/0.23.1280.752@0.23.1280.752" timestamp="1599676418401" />
+    <state width="528" height="466" key="DebuggerActiveHint" timestamp="1599676443488">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="489" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1599642691739" />
-    <state width="1238" height="489" key="GridCell.Tab.0.right" timestamp="1599642691740">
+    <state width="528" height="466" key="DebuggerActiveHint/0.23.1280.752@0.23.1280.752" timestamp="1599676443488" />
+    <state width="1238" height="489" key="GridCell.Tab.0.bottom" timestamp="1599723241896">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="489" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1599642691740" />
-    <state width="1238" height="235" key="GridCell.Tab.1.bottom" timestamp="1599639777838">
+    <state width="1238" height="489" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599723241896" />
+    <state width="1238" height="489" key="GridCell.Tab.0.center" timestamp="1599723241896">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="235" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599639777838" />
-    <state width="1238" height="235" key="GridCell.Tab.1.center" timestamp="1599639777837">
+    <state width="1238" height="489" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1599723241896" />
+    <state width="1238" height="489" key="GridCell.Tab.0.left" timestamp="1599723241895">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="235" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
-    <state width="1238" height="235" key="GridCell.Tab.1.left" timestamp="1599639777837">
+    <state width="1238" height="489" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1599723241895" />
+    <state width="1238" height="489" key="GridCell.Tab.0.right" timestamp="1599723241896">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="235" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
-    <state width="1238" height="235" key="GridCell.Tab.1.right" timestamp="1599639777837">
+    <state width="1238" height="489" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1599723241896" />
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom" timestamp="1599714887843">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="1238" height="235" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1599639777837" />
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1599714887843" />
+    <state width="1238" height="235" key="GridCell.Tab.1.center" timestamp="1599714887842">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1599714887842" />
+    <state width="1238" height="235" key="GridCell.Tab.1.left" timestamp="1599714887842">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1599714887842" />
+    <state width="1238" height="235" key="GridCell.Tab.1.right" timestamp="1599714887842">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1599714887842" />
     <state x="149" y="38" key="SettingsEditor" timestamp="1599632531378">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="149" y="38" key="SettingsEditor/0.23.1280.752@0.23.1280.752" timestamp="1599632531378" />
-    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599639822660">
+    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599721729813">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.752@0.23.1280.752" timestamp="1599639822660" />
+    <state x="100" y="123" width="1080" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.752@0.23.1280.752" timestamp="1599721729813" />
     <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599632492408">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="429" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.752@0.23.1280.752" timestamp="1599632492408" />
+    <state x="306" y="156" width="667" height="486" key="find.popup" timestamp="1599731253552">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="306" y="156" width="667" height="486" key="find.popup/0.23.1280.752@0.23.1280.752" timestamp="1599731253552" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,9 +229,14 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/main/MainFragment.kt</url>
-          <line>14</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/onboard/OnBoardFragment.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/testtv/ui/onboard/OnBoardFragment.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
