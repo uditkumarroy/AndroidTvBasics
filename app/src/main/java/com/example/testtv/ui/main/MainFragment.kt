@@ -3,11 +3,13 @@ package com.example.testtv.ui.main
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
-import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.util.DisplayMetrics
+import android.util.Log
 import android.view.View
+import android.widget.Toast
+import androidx.core.app.ActivityOptionsCompat
 import androidx.core.content.ContextCompat
 import androidx.leanback.app.BackgroundManager
 import androidx.leanback.app.BrowseSupportFragment
@@ -20,12 +22,11 @@ import com.example.testtv.R
 import com.example.testtv.data.ConvertData
 import com.example.testtv.data.models.GoogleData
 import com.example.testtv.data.models.Video
+import com.example.testtv.ui.details.DetailsActivity
 import com.example.testtv.ui.presenters.CardPresenter
-import com.example.testtv.ui.presenters.IconHeaderItemPresenter
 import com.example.testtv.ui.search.SearchActivity
 import com.example.testtv.utils.Constants
 import java.io.IOException
-import java.util.*
 
 class MainFragment : BrowseSupportFragment(){
 
@@ -70,8 +71,9 @@ class MainFragment : BrowseSupportFragment(){
             rowsAdapter.add(ListRow(header, listRowAdapter))
         }
         adapter = rowsAdapter
-
         onItemViewClickedListener = ItemViewClickedListener()
+
+//12-10-1955
 
     }
 
@@ -117,16 +119,28 @@ class MainFragment : BrowseSupportFragment(){
         setOnItemViewClickedListener(ItemViewClickedListener())
     }
 
-    class ItemViewClickedListener: OnItemViewClickedListener{
+    private inner class ItemViewClickedListener : OnItemViewClickedListener {
         override fun onItemClicked(
-            itemViewHolder: Presenter.ViewHolder?,
-            item: Any?,
-            rowViewHolder: RowPresenter.ViewHolder?,
-            row: Row?
+            itemViewHolder: Presenter.ViewHolder,
+            item: Any,
+            rowViewHolder: RowPresenter.ViewHolder,
+            row: Row
         ) {
 
+            if (item is Video) {
+                Log.d("TAG", "Item: " + item.toString())
+                val intent = Intent(context, DetailsActivity::class.java)
+                intent.putExtra(Constants.VIDEO, item)
+                activity?.startActivity(intent)
+            } else if (item is String) {
+                if (item.contains(getString(R.string.error_fragment))) {
+                   // val intent = Intent(context, BrowseErrorActivity::class.java)
+                   // startActivity(intent)
+                } else {
+                    Toast.makeText(context, item, Toast.LENGTH_SHORT).show()
+                }
+            }
         }
-
     }
 
     fun getJsonDataFromAsset(context: Context, fileName: String): String? {

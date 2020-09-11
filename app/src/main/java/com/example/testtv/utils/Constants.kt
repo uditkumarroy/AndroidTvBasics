@@ -17,7 +17,10 @@ object Constants {
     const val ACTION_BUY = 3
     const val RELATED_VIDEO_LOADER = 1
     const val mGlobalSearchVideoId = 1
-    const val DETAIL_THUMB_WIDTH = 274
-    const val DETAIL_THUMB_HEIGHT = 274
+    const val DETAIL_THUMB_WIDTH = 374
+    const val DETAIL_THUMB_HEIGHT = 374
+    const val GAMEPAD_TRIGGER_INTENSITY_ON = 0.5f
+    const val GAMEPAD_TRIGGER_INTENSITY_OFF = 0.45f
+    const val UPDATE_DELAY = 16
 
 }

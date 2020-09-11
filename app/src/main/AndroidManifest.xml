@@ -50,6 +50,15 @@
             android:screenOrientation="landscape"
             android:theme="@style/Theme.Leanback"/>
 
+        <activity
+            android:name=".ui.details.DetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Leanback"/>
+        <activity
+            android:name=".ui.playback.PlayBackActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Leanback"/>
+
     </application>
 
 </manifest>

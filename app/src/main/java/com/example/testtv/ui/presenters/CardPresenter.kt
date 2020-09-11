@@ -21,7 +21,7 @@ class CardPresenter : Presenter() {
 
         sDefaultBackgroundColor = ContextCompat.getColor(parent.context, R.color.panel_background)
         sSelectedBackgroundColor =
-            ContextCompat.getColor(parent.context, R.color.background_gradient_end)
+            ContextCompat.getColor(parent.context, R.color.background_gradient_start)
         mDefaultCardImage = ContextCompat.getDrawable(parent.context, R.drawable.default_background)
 
         val cardView = object : ImageCardView(parent.context) {
